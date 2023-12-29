@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrosFilm</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=VCR+OSD+Mono&display=swap');
+    @font-face {
+      font-family: 'Aldrich';
+      src: url('/static/fonts/Aldrich-Regular.ttf');
+    }
+
+    @font-face {
+      font-family: 'Bombard';
+      src: url('/static/fonts/BOMBARD_.ttf');
+    }
+
+    @font-face {
+      font-family: 'VHS';
+      src: url('/static/fonts/VCR_OSD_MONO_1.001.ttf');
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('https://cdn.discordapp.com/attachments/1095869274993729536/1096631113864183818/New_Project_128_D39BFEC.gif?ex=6598c24f&is=65864d4f&hm=0ba0bbb81955d6bb28dd50a0cf1bc1ca443e67ae45d449b8b520063a083a2e2d') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    nav {
+      background-color: #000000;
+      padding: 0.5rem;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      display: flex;
+      justify-content: space-around;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: text-shadow 0.3s, border 0.3s;
+      font-family: 'Bombard';
+      font-size: 1.2rem;
+      position: relative;
+      border: 2px solid transparent;
+    }
+
+    nav a:hover {
+      text-shadow: 1px 1px 10px aqua;
+      border: 2px solid aqua;
+    }
+
+    #logo {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff;
+      margin: 0;
+      background-color: #000000;
+      padding: 0;
+      font-family: 'VHS';
+      position: relative;
+    }
+
+    #caption-box {
+      white-space: nowrap;
+      background: #000000;
+      padding: 0.5rem;
+      border-radius: 0;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    #description {
+      max-width: 800px; /* Increased the max-width */
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #000000;
+      border-radius: 0;
+      font-family: 'Aldrich';
+    }
+
+    #description h2 {
+      color: #fff;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    #description p {
+      color: #ddd;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+
+    #description ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #description li {
+      margin-bottom: 0.5rem;
+      width: calc(33.33% - 1rem);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      border: 2px solid aqua;
+      border-radius: 5px;
+    }
+
+    .feature-logo {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .profile-logo::before {
+      content: '';
+    }
+
+    .library-logo::before {
+      content: '';
+    }
+
+    .review-logo::before {
+      content: '';
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="http://34.128.67.212:5000/users" target="_blank">Users</a>
+    <a href="http://34.128.67.212:5000/reviews" target="_blank">Reviews</a>
+  </nav>
+
+  <div id="logo">
+    <div id="caption-box">BROSFILM</div>
+  </div>
+
+  <div id="description">
+    <h2>Introducing BrosFilm - Your Movie Companion!</h2>
+    <p> Immerse yourself in the cinematic realm with BrosFilm, the ultimate app designed for movie enthusiasts! Use profile, express your favorite film choices, and connect with fellow movie buffs.</p>
+
+    <ul>
+      <li><span class="feature-logo profile-logo"><strong>Profile</strong></span> For a simple profile for yourself.</li>
+      <li><span class="feature-logo library-logo"><strong>Diverse Movies</strong></span> Search into wide collection of films with various genres.</li>
+      <li><span class="feature-logo review-logo"><strong>Reviews</strong></span> Share your opinion and insights by creating reviews for the movies you've experienced.</li>
+    </ul>
+  </div>
+</body>
+
+</html>

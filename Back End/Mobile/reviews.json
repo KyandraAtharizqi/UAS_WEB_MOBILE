@@ -1,0 +1,32 @@
+{
+  "Review": [
+    {
+      "userId": "1",
+      "username": "Admin",
+      "movieId": "6",
+      "subject": "Great Animation",
+      "detail": "Enjoyed the storyline and animation. A must-watch for all ages."
+    },
+    {
+      "userId": "3",
+      "username": "Fusil",
+      "movieId": "6",
+      "subject": "Cinematic Masterpiece 10/10",
+      "detail": "Ratatouille, an opus under the masterful direction of Brad Bird, unfolds as a tapestry of animated magnificence, seamlessly traversing the realms of storytelling sophistication. Situated against the beguiling tableau of Paris, this Pixar marvel beckons viewers into the extraordinary odyssey of Remy, an erudite rodent whose discerning palate is matched only by an unwavering ardor for the culinary arts. The film, a paragon of visual opulence, meticulously captures the intricate nuances of the Parisian milieu and the bustling culinary realms with a brushstroke of unparalleled artistic finesse. Ratatouille transcends mere entertainment; it is an animated symphony, weaving threads of humor, pathos, and visual splendor to immerse spectators in a realm where rodents aspire to ascend to gastronomic eminence. Beyond its aesthetic allure, the film proffers sagacious allegories of pursuing one's aspirations, defying societal constraints, and extolling the transcendental potency of gastronomy to unite disparate souls\u00e2\u20ac\u201da timeless classic resonant across epochs and ages."
+    },
+    {
+      "userId": "2",
+      "username": "NamakuDwiRumahkuDiSerang",
+      "movieId": "6",
+      "subject": "rats in oparis",
+      "detail": "ths movie is about s silly little rats cooking. 8/10"
+    },
+    {
+      "userId": "1",
+      "username": "Admin",
+      "movieId": "6",
+      "subject": "Epic",
+      "detail": "Epic Movie"
+    }
+  ]
+}

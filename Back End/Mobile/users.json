@@ -1,0 +1,32 @@
+{
+  "message": "success",
+  "data": [
+    {
+      "id": 1,
+      "usr": "Admin",
+      "pwd": "Admin123",
+      "level": "admin",
+      "isActive": 1,
+      "favmovie": "Ratatouille",
+      "userdetail": "Detail 1"
+    },
+    {
+      "id": 2,
+      "usr": "NamakuDwiRumahkuDiSerang",
+      "pwd": "apayahayo",
+      "level": "user",
+      "isActive": 1,
+      "favmovie": "Ratatouille",
+      "userdetail": "Detail 2"
+    },
+    {
+      "id": 3,
+      "usr": "Fusil",
+      "pwd": "asusombradormiremos",
+      "level": "user",
+      "isActive": 1,
+      "favmovie": "Ratatouille",
+      "userdetail": "Detail 3"
+    }
+  ]
+}
